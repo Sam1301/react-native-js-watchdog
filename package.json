@@ -1,6 +1,6 @@
 {
   "name": "react-native-js-watchdog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript event loop watchdog to detect js stalls in your react native applications.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Sam1301/react-native-JSEventLoopWatchdog.git"
+    "url": "git@github.com:Sam1301/react-native-js-watchdog.git"
   },
   "keywords": [
     "react-native",
