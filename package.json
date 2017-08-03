@@ -1,0 +1,27 @@
+{
+  "name": "react-native-js-watchdog",
+  "version": "0.0.1",
+  "description": "Javascript event loop watchdog to detect js stalls in your react native applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sam1301/react-native-JSEventLoopWatchdog.git"
+  },
+  "keywords": [
+    "react-native",
+    "performance",
+    "profiling"
+  ],
+  "author": "Saumya Bhatnagar <saumya.bhatnagar.sb@gmail.com> (https://github.com/Sam1301)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sam1301/react-native-JSEventLoopWatchdog/issues"
+  },
+  "homepage": "https://github.com/Sam1301/react-native-JSEventLoopWatchdog#readme",
+  "dependencies": {
+    "fbjs": "^0.8.14"
+  }
+}
