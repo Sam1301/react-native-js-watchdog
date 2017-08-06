@@ -1,6 +1,6 @@
 {
   "name": "react-native-js-watchdog",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Javascript event loop watchdog to detect js stalls in your react native applications.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Sam1301/react-native-JSEventLoopWatchdog#readme",
   "dependencies": {
-    "fbjs": "^0.8.14"
+    "fbjs": "^0.8.14",
+    "underscore": "^1.8.3"
   }
 }

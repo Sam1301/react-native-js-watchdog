@@ -1,5 +1,4 @@
-'use strict';
+import JSEventLoopWatchdog from './JSEventLoopWatchdog';
+import RenderTest from './RenderTest';
 
-const JSEventLoopWatchdog = require('./JSEventLoopWatchdog');
-
-module.exports = JSEventLoopWatchdog;
+export { JSEventLoopWatchdog, RenderTest };

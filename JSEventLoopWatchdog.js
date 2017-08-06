@@ -9,9 +9,8 @@
  * @providesModule JSEventLoopWatchdog
  * @flow
  */
-'use strict';
 
-const performanceNow = require('fbjs/lib/performanceNow');
+import performanceNow from 'fbjs/lib/performanceNow';
 
 type Handler = {
   onIterate?: () => void,
@@ -85,4 +84,4 @@ let longestStall = 0;
 let lastInterval = 0;
 const handlers: Array<Handler> = [];
 
-module.exports = JSEventLoopWatchdog;
+export default JSEventLoopWatchdog;
