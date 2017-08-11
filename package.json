@@ -1,6 +1,6 @@
 {
   "name": "react-native-js-watchdog",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Javascript event loop watchdog to detect js stalls in your react native applications.",
   "main": "index.js",
   "scripts": {
